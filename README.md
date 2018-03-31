@@ -2,6 +2,8 @@
 
 Replace space character as defined by Unicode's White Space property (https://golang.org/pkg/unicode/#IsSpace)
 
+[![Build Status](https://travis-ci.org/wuriyanto48/replacer.svg?branch=master)](https://travis-ci.org/wuriyanto48/replacer) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
+
 ### Usage
 
   - Install
