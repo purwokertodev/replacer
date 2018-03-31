@@ -21,12 +21,12 @@ Replace space character as defined by Unicode's White Space property (https://go
 
     func main() {
 
-      stringWithStrangeSpace := "sometimes i fell \n my heart \t so lonely"
+      stringWithStrangeSpace := "sometimes i feel \n my heart \t so lonely"
 
       r1 := replacer.Replace(stringWithStrangeSpace, " ")
       r2 := replacer.Replace(stringWithStrangeSpace, "_")
 
-      fmt.Println(r1) // sometimes i fell my heart so lonely
-      fmt.Println(r2) // sometimes_i_fell_my_heart_so_lonely
+      fmt.Println(r1) // sometimes i feel my heart so lonely
+      fmt.Println(r2) // sometimes_i_feel_my_heart_so_lonely
     }
     ```
