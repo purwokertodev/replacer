@@ -8,7 +8,7 @@ Replace space character as defined by Unicode's White Space property (https://go
 
   - Install
     ```shell
-    go get github.com/wuriyanto48/replacer
+    go get github.com/purwokertodev/replacer
     ```
   - Example
     ```go
@@ -16,7 +16,7 @@ Replace space character as defined by Unicode's White Space property (https://go
 
     import (
       "fmt"
-      "github.com/wuriyanto48/replacer"
+      "github.com/purwokertodev/replacer"
     )
 
     func main() {
